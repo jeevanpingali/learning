@@ -5,8 +5,10 @@ import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.Timer;
 
 import java.util.concurrent.*;
+import java.util.logging.Logger;
 
 public class CompletableFutureApp {
+    private static Logger logger = Logger.getLogger(CompletableFutureApp.class.getName());
     private static ThreadPoolExecutor firstPool;
     private static ThreadPoolExecutor secondPool;
     private static ThreadPoolExecutor thirdPool;
@@ -33,7 +35,7 @@ public class CompletableFutureApp {
 
                 CompletableFuture<String> step1 = CompletableFuture.supplyAsync(blockingAction::blockingActionMethod, firstPool);
                 CompletableFuture<Void> step2 = step1.thenAcceptAsync(useBlockingActionResult::use, secondPool);
-                step2.thenRunAsync(() -> System.out.println("Third step also completed.."), thirdPool); // this doesn't require a pool for such a simple computation.
+                step2.thenRunAsync(() -> logger.info("Third step also completed.."), thirdPool); // this doesn't require a pool for such a simple computation.
             } finally {
                 context.stop();
             }
@@ -48,7 +50,7 @@ public class CompletableFutureApp {
             e.printStackTrace();
         }
 
-        System.out.println("All steps of all tasks submitted completed...");
+        logger.info("All steps of all tasks submitted completed...");
         closePools();
 
         reporter.report();
