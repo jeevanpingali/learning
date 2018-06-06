@@ -7,7 +7,7 @@ This Maven module is a sample program on CompletableFuture, sequencing series of
 
 ### Metrics
 
-...
+```
 pingali.jeevan.completable_future.CompletableFutureApp
              count = 100
          mean rate = 79.14 calls/second
@@ -24,4 +24,4 @@ pingali.jeevan.completable_future.CompletableFutureApp
               98% <= 1.11 milliseconds
               99% <= 1.41 milliseconds
             99.9% <= 12.54 milliseconds
-...
+```
