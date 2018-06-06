@@ -16,6 +16,7 @@
 
     <modules>
         <module>CompletableFuture</module>
+        <module>SequencingAsyncTasks</module>
     </modules>
 
 
