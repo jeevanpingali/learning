@@ -1,0 +1,215 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /home/jeevan/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/jeevan/source/learning/my-akka-http-project/project[0m
+[0m[[0minfo[0m] [0mSet current project to TestProject (in build file:/home/jeevan/source/learning/my-akka-http-project/)[0m
+[0m[[0minfo[0m] [0m*:clean = Task[Unit][0m
+[0m[[0minfo[0m] [0m  +-*:clean::streams = Task[sbt.std.TaskStreams[sbt.Init$ScopedKey[_ <: Any]]][0m
+[0m[[0minfo[0m] [0m  | +-*/*:streamsManager = Task[sbt.std.Streams[sbt.Init$ScopedKey[_ <: Any]]][0m
+[0m[[0minfo[0m] [0m  | [0m
+[0m[[0minfo[0m] [0m  +-*:cleanFilesTask = Task[scala.collection.Seq[java.io.File]][0m
+[0m[[0minfo[0m] [0m  | +-*:cleanKeepFiles = Vector(/home/jeevan/source/learning/my-akka-http-project/target/.history)[0m
+[0m[[0minfo[0m] [0m  | | +-*:history = Some(/home/jeevan/source/learning/my-akka-http-project/target/.history)[0m
+[0m[[0minfo[0m] [0m  | |   +-*:target = target[0m
+[0m[[0minfo[0m] [0m  | |     +-*:baseDirectory = /home/jeevan/source/learning/my-akka-http-project[0m
+[0m[[0minfo[0m] [0m  | |       +-*:thisProject = Project(id root, base: /home/jeevan/source/learning/my-akka-http-project, configurations: List(compile, runtime, test, provided, optional), plugins: List(<none>), autoPlug..[0m
+[0m[[0minfo[0m] [0m  | |       [0m
+[0m[[0minfo[0m] [0m  | +-{.}/*:managedDirectory = lib_managed[0m
+[0m[[0minfo[0m] [0m  | +-*:target = target[0m
+[0m[[0minfo[0m] [0m  |   +-*:baseDirectory = /home/jeevan/source/learning/my-akka-http-project[0m
+[0m[[0minfo[0m] [0m  |     +-*:thisProject = Project(id root, base: /home/jeevan/source/learning/my-akka-http-project, configurations: List(compile, runtime, test, provided, optional), plugins: List(<none>), autoPlugins:..[0m
+[0m[[0minfo[0m] [0m  |     [0m
+[0m[[0minfo[0m] [0m  +-*:ivyModule = Task[sbt.IvySbt#sbt.IvySbt$Module][0m
+[0m[[0minfo[0m] [0m    +-*:ivySbt = Task[sbt.IvySbt][0m
+[0m[[0minfo[0m] [0m    | +-*/*:credentials = Task[scala.collection.Seq[sbt.Credentials]][0m
+[0m[[0minfo[0m] [0m    | +-*:ivyConfiguration = Task[sbt.IvyConfiguration][0m
+[0m[[0minfo[0m] [0m    | | +-*/*:appConfiguration = xsbt.boot.AppConfiguration@568f4faa[0m
+[0m[[0minfo[0m] [0m    | | +-*:crossTarget = target/scala-2.12[0m
+[0m[[0minfo[0m] [0m    | | | +-*/*:crossPaths = true[0m
+[0m[[0minfo[0m] [0m    | | | +-*:pluginCrossBuild::sbtBinaryVersion = 0.13[0m
+[0m[[0minfo[0m] [0m    | | | | +-*/*:pluginCrossBuild::sbtVersion = 0.13.17[0m
+[0m[[0minfo[0m] [0m    | | | | [0m
+[0m[[0minfo[0m] [0m    | | | +-*/*:sbtPlugin = false[0m
+[0m[[0minfo[0m] [0m    | | | +-{.}/*:scalaBinaryVersion = 2.12[0m
+[0m[[0minfo[0m] [0m    | | | +-*:target = target[0m
+[0m[[0minfo[0m] [0m    | | |   +-*:baseDirectory = /home/jeevan/source/learning/my-akka-http-project[0m
+[0m[[0minfo[0m] [0m    | | |     +-*:thisProject = Project(id root, base: /home/jeevan/source/learning/my-akka-http-project, configurations: List(compile, runtime, test, provided, optional), plugins: List(<none>), autoPl..[0m
+[0m[[0minfo[0m] [0m    | | |     [0m
+[0m[[0minfo[0m] [0m    | | +-*:fullResolvers = Task[scala.collection.Seq[sbt.Resolver]][0m
+[0m[[0minfo[0m] [0m    | | | +-*:bootResolvers = Task[scala.Option[scala.collection.Seq[sbt.Resolver]]][0m
+[0m[[0minfo[0m] [0m    | | | | +-*/*:appConfiguration = xsbt.boot.AppConfiguration@568f4faa[0m
+[0m[[0minfo[0m] [0m    | | | | [0m
+[0m[[0minfo[0m] [0m    | | | +-*:externalResolvers = Task[scala.collection.Seq[sbt.Resolver]][0m
+[0m[[0minfo[0m] [0m    | | | | +-*:appResolvers = Some(ArrayBuffer(FileRepository(local,FileConfiguration(true,None),Patterns(ivyPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVer..[0m
+[0m[[0minfo[0m] [0m    | | | | | +-*/*:appConfiguration = xsbt.boot.AppConfiguration@568f4faa[0m
+[0m[[0minfo[0m] [0m    | | | | | +-*/*:useJcenter = false[0m
+[0m[[0minfo[0m] [0m    | | | | | [0m
+[0m[[0minfo[0m] [0m    | | | | +-*/*:resolvers = List()[0m
+[0m[[0minfo[0m] [0m    | | | | +-*/*:useJcenter = false[0m
+[0m[[0minfo[0m] [0m    | | | | [0m
+[0m[[0minfo[0m] [0m    | | | +-*:overrideBuildResolvers = false[0m
+[0m[[0minfo[0m] [0m    | | | | +-*/*:appConfiguration = xsbt.boot.AppConfiguration@568f4faa[0m
+[0m[[0minfo[0m] [0m    | | | | [0m
+[0m[[0minfo[0m] [0m    | | | +-*:projectResolver = Task[sbt.Resolver][0m
+[0m[[0minfo[0m] [0m    | | | | +-*:projectDescriptors = Task[scala.collection.immutable.Map[org.apache.ivy.core.module.id.ModuleRevisionId, org.apache.ivy.core.module.descriptor.ModuleDescriptor]][0m
+[0m[[0minfo[0m] [0m    | | | |   +-*/*:buildDependencies = sbt.BuildDependencies@23b71d24[0m
+[0m[[0minfo[0m] [0m    | | | |   +-*:projectDescriptors::streams = Task[sbt.std.TaskStreams[sbt.Init$ScopedKey[_ <: Any]]][0m
+[0m[[0minfo[0m] [0m    | | | |   | +-*/*:streamsManager = Task[sbt.std.Streams[sbt.Init$ScopedKey[_ <: Any]]][0m
+[0m[[0minfo[0m] [0m    | | | |   | [0m
+[0m[[0minfo[0m] [0m    | | | |   +-*/*:settingsData = Task[sbt.Settings[sbt.Scope]][0m
+[0m[[0minfo[0m] [0m    | | | |   +-*:thisProjectRef = ProjectRef(file:/home/jeevan/source/learning/my-akka-http-project/,root)[0m
+[0m[[0minfo[0m] [0m    | | | |   [0m
+[0m[[0minfo[0m] [0m    | | | +-*/*:sbtPlugin = false[0m
+[0m[[0minfo[0m] [0m    | | | +-*/*:sbtResolver = URLRepository(typesafe-ivy-releases,Patterns(ivyPatterns=List(https://repo.typesafe.com/typesafe/ivy-releases/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersi..[0m
+[0m[[0minfo[0m] [0m    | | | [0m
+[0m[[0minfo[0m] [0m    | | +-*:ivyConfiguration::streams = Task[sbt.std.TaskStreams[sbt.Init$ScopedKey[_ <: Any]]][0m
+[0m[[0minfo[0m] [0m    | | | +-*/*:streamsManager = Task[sbt.std.Streams[sbt.Init$ScopedKey[_ <: Any]]][0m
+[0m[[0minfo[0m] [0m    | | | [0m
+[0m[[0minfo[0m] [0m    | | +-*:ivyPaths = IvyPath(/home/jeevan/source/learning/my-akka-http-project, Some(/home/jeevan/.ivy2))[0m
+[0m[[0minfo[0m] [0m    | | | +-*/*:appConfiguration = xsbt.boot.AppConfiguration@568f4faa[0m
+[0m[[0minfo[0m] [0m    | | | +-*:baseDirectory = /home/jeevan/source/learning/my-akka-http-project[0m
+[0m[[0minfo[0m] [0m    | | |   +-*:thisProject = Project(id root, base: /home/jeevan/source/learning/my-akka-http-project, configurations: List(compile, runtime, test, provided, optional), plugins: List(<none>), autoPlug..[0m
+[0m[[0minfo[0m] [0m    | | |   [0m
+[0m[[0minfo[0m] [0m    | | +-*/*:moduleConfigurations = List()[0m
+[0m[[0minfo[0m] [0m    | | +-*/*:offline = false[0m
+[0m[[0minfo[0m] [0m    | | +-*:otherResolvers = List(cache:publish-m2-local: /home/jeevan/.m2/repository)[0m
+[0m[[0minfo[0m] [0m    | | | +-*/*:publishTo = None[0m
+[0m[[0minfo[0m] [0m    | | | [0m
+[0m[[0minfo[0m] [0m    | | +-*/*:checksums = WrappedArray(sha1, md5)[0m
+[0m[[0minfo[0m] [0m    | | +-*:updateOptions = sbt.UpdateOptions@f567f44b[0m
+[0m[[0minfo[0m] [0m    | |   +-*/*:updateOptions = sbt.UpdateOptions@f567f44b[0m
+[0m[[0minfo[0m] [0m    | |   [0m
+[0m[[0minfo[0m] [0m    | +-*:ivySbt::streams = Task[sbt.std.TaskStreams[sbt.Init$ScopedKey[_ <: Any]]][0m
+[0m[[0minfo[0m] [0m    |   +-*/*:streamsManager = Task[sbt.std.Streams[sbt.Init$ScopedKey[_ <: Any]]][0m
+[0m[[0minfo[0m] [0m    |   [0m
+[0m[[0minfo[0m] [0m    +-*:moduleSettings = Task[sbt.ModuleSettings][0m
+[0m[[0minfo[0m] [0m      +-*:allDependencies = Task[scala.collection.Seq[sbt.ModuleID]][0m
+[0m[[0minfo[0m] [0m      | +-*:ivyScala = Some(IvyScala(2.12.6,2.12,List(),true,false,true,org.scala-lang))[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:sbtPlugin = false[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:scalaHome = None[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:scalaOrganization = org.scala-lang[0m
+[0m[[0minfo[0m] [0m      | | +-{.}/*:scalaBinaryVersion = 2.12[0m
+[0m[[0minfo[0m] [0m      | | +-{.}/*:scalaVersion = 2.12.6[0m
+[0m[[0minfo[0m] [0m      | | [0m
+[0m[[0minfo[0m] [0m      | +-*:libraryDependencies = List(org.scala-lang:scala-library:2.12.6, com.typesafe.akka:akka-http:10.1.1, com.typesafe.akka:akka-stream:2.5.12, com.typesafe.akka:akka-http-jackson:10.1.1, com.typ..[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:autoScalaLibrary = true[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:managedScalaInstance = true[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:sbtPlugin = false[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:scalaHome = None[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:scalaOrganization = org.scala-lang[0m
+[0m[[0minfo[0m] [0m      | | +-{.}/*:scalaVersion = 2.12.6[0m
+[0m[[0minfo[0m] [0m      | | [0m
+[0m[[0minfo[0m] [0m      | +-*/*:managedScalaInstance = true[0m
+[0m[[0minfo[0m] [0m      | +-*:pluginCrossBuild::sbtDependency = org.scala-sbt:sbt:0.13.17[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:appConfiguration = xsbt.boot.AppConfiguration@568f4faa[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:pluginCrossBuild::sbtVersion = 0.13.17[0m
+[0m[[0minfo[0m] [0m      | | +-{.}/*:scalaBinaryVersion = 2.12[0m
+[0m[[0minfo[0m] [0m      | | +-{.}/*:scalaVersion = 2.12.6[0m
+[0m[[0minfo[0m] [0m      | | [0m
+[0m[[0minfo[0m] [0m      | +-*:projectDependencies = Task[scala.collection.Seq[sbt.ModuleID]][0m
+[0m[[0minfo[0m] [0m      | | +-*/*:buildDependencies = sbt.BuildDependencies@23b71d24[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:settingsData = Task[sbt.Settings[sbt.Scope]][0m
+[0m[[0minfo[0m] [0m      | | +-*:thisProjectRef = ProjectRef(file:/home/jeevan/source/learning/my-akka-http-project/,root)[0m
+[0m[[0minfo[0m] [0m      | | [0m
+[0m[[0minfo[0m] [0m      | +-*/*:sbtPlugin = false[0m
+[0m[[0minfo[0m] [0m      | +-*/*:scalaHome = None[0m
+[0m[[0minfo[0m] [0m      | +-*/*:scalaOrganization = org.scala-lang[0m
+[0m[[0minfo[0m] [0m      | +-{.}/*:scalaVersion = 2.12.6[0m
+[0m[[0minfo[0m] [0m      | [0m
+[0m[[0minfo[0m] [0m      +-*/*:conflictManager = ConflictManager(latest-revision,*,*)[0m
+[0m[[0minfo[0m] [0m      +-*/*:defaultConfiguration = Some(compile)[0m
+[0m[[0minfo[0m] [0m      +-*/*:dependencyOverrides = Set()[0m
+[0m[[0minfo[0m] [0m      +-*/*:excludeDependencies = List()[0m
+[0m[[0minfo[0m] [0m      +-*:ivyConfigurations = List(compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool)[0m
+[0m[[0minfo[0m] [0m      | +-*/*:autoCompilerPlugins = true[0m
+[0m[[0minfo[0m] [0m      | +-*/*:internalConfigurationMap = <function1>[0m
+[0m[[0minfo[0m] [0m      | +-*/*:managedScalaInstance = true[0m
+[0m[[0minfo[0m] [0m      | +-*/*:scalaHome = None[0m
+[0m[[0minfo[0m] [0m      | +-*:thisProject = Project(id root, base: /home/jeevan/source/learning/my-akka-http-project, configurations: List(compile, runtime, test, provided, optional), plugins: List(<none>), autoPlugins:..[0m
+[0m[[0minfo[0m] [0m      | [0m
+[0m[[0minfo[0m] [0m      +-*:ivyScala = Some(IvyScala(2.12.6,2.12,List(),true,false,true,org.scala-lang))[0m
+[0m[[0minfo[0m] [0m      | +-*/*:sbtPlugin = false[0m
+[0m[[0minfo[0m] [0m      | +-*/*:scalaHome = None[0m
+[0m[[0minfo[0m] [0m      | +-*/*:scalaOrganization = org.scala-lang[0m
+[0m[[0minfo[0m] [0m      | +-{.}/*:scalaBinaryVersion = 2.12[0m
+[0m[[0minfo[0m] [0m      | +-{.}/*:scalaVersion = 2.12.6[0m
+[0m[[0minfo[0m] [0m      | [0m
+[0m[[0minfo[0m] [0m      +-*/*:ivyValidate = false[0m
+[0m[[0minfo[0m] [0m      +-*/*:ivyXml = [0m
+[0m[[0minfo[0m] [0m      +-*:projectId = pingali.jeevan:testproject:0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0m      | +-*/*:apiUrl = None[0m
+[0m[[0minfo[0m] [0m      | +-*:artifacts = List(Artifact(testproject,pom,pom,None,List(pom),None,Map()), Artifact(testproject,jar,jar,None,List(compile),None,Map()), Artifact(testproject,src,jar,Some(sources),List(source..[0m
+[0m[[0minfo[0m] [0m      | | +-*:makePom::artifact = Artifact(testproject,pom,pom,None,List(pom),None,Map())[0m
+[0m[[0minfo[0m] [0m      | | | +-*:moduleName = testproject[0m
+[0m[[0minfo[0m] [0m      | | |   +-*:normalizedName = testproject[0m
+[0m[[0minfo[0m] [0m      | | |     +-*:name = TestProject[0m
+[0m[[0minfo[0m] [0m      | | |     [0m
+[0m[[0minfo[0m] [0m      | | +-*:makePom::publishArtifact = true[0m
+[0m[[0minfo[0m] [0m      | | | +-*/*:publishArtifact = true[0m
+[0m[[0minfo[0m] [0m      | | | +-*/*:publishMavenStyle = true[0m
+[0m[[0minfo[0m] [0m      | | | [0m
+[0m[[0minfo[0m] [0m      | | +-compile:packageBin::artifact = Artifact(testproject,jar,jar,None,List(compile),None,Map())[0m
+[0m[[0minfo[0m] [0m      | | | +-*/*:artifactClassifier = None[0m
+[0m[[0minfo[0m] [0m      | | | +-compile:configuration = compile[0m
+[0m[[0minfo[0m] [0m      | | | [0m
+[0m[[0minfo[0m] [0m      | | +-*/*:publishArtifact = true[0m
+[0m[[0minfo[0m] [0m      | | +-compile:packageDoc::artifact = Artifact(testproject,doc,jar,Some(javadoc),List(docs),None,Map())[0m
+[0m[[0minfo[0m] [0m      | | | +-*/*:packageDoc::artifactClassifier = Some(javadoc)[0m
+[0m[[0minfo[0m] [0m      | | | +-compile:configuration = compile[0m
+[0m[[0minfo[0m] [0m      | | | [0m
+[0m[[0minfo[0m] [0m      | | +-*/*:publishArtifact = true[0m
+[0m[[0minfo[0m] [0m      | | +-compile:packageSrc::artifact = Artifact(testproject,src,jar,Some(sources),List(sources),None,Map())[0m
+[0m[[0minfo[0m] [0m      | | | +-*/*:packageSrc::artifactClassifier = Some(sources)[0m
+[0m[[0minfo[0m] [0m      | | | +-compile:configuration = compile[0m
+[0m[[0minfo[0m] [0m      | | | [0m
+[0m[[0minfo[0m] [0m      | | +-*/*:publishArtifact = true[0m
+[0m[[0minfo[0m] [0m      | | +-test:packageBin::artifact = Artifact(testproject,jar,jar,Some(tests),List(test),None,Map())[0m
+[0m[[0minfo[0m] [0m      | | | +-*/*:artifactClassifier = None[0m
+[0m[[0minfo[0m] [0m      | | | +-test:configuration = test[0m
+[0m[[0minfo[0m] [0m      | | | [0m
+[0m[[0minfo[0m] [0m      | | +-*/test:publishArtifact = false[0m
+[0m[[0minfo[0m] [0m      | | +-test:packageDoc::artifact = Artifact(testproject,doc,jar,Some(tests-javadoc),List(docs),None,Map())[0m
+[0m[[0minfo[0m] [0m      | | | +-*/*:packageDoc::artifactClassifier = Some(javadoc)[0m
+[0m[[0minfo[0m] [0m      | | | +-test:configuration = test[0m
+[0m[[0minfo[0m] [0m      | | | [0m
+[0m[[0minfo[0m] [0m      | | +-*/test:publishArtifact = false[0m
+[0m[[0minfo[0m] [0m      | | +-test:packageSrc::artifact = Artifact(testproject,src,jar,Some(tests-sources),List(sources),None,Map())[0m
+[0m[[0minfo[0m] [0m      | | | +-*/*:packageSrc::artifactClassifier = Some(sources)[0m
+[0m[[0minfo[0m] [0m      | | | +-test:configuration = test[0m
+[0m[[0minfo[0m] [0m      | | | [0m
+[0m[[0minfo[0m] [0m      | | +-*/test:publishArtifact = false[0m
+[0m[[0minfo[0m] [0m      | | [0m
+[0m[[0minfo[0m] [0m      | +-*/*:autoApiMappings = false[0m
+[0m[[0minfo[0m] [0m      | +-*:moduleName = testproject[0m
+[0m[[0minfo[0m] [0m      | | +-*:normalizedName = testproject[0m
+[0m[[0minfo[0m] [0m      | |   +-*:name = TestProject[0m
+[0m[[0minfo[0m] [0m      | |   [0m
+[0m[[0minfo[0m] [0m      | +-*:organization = pingali.jeevan[0m
+[0m[[0minfo[0m] [0m      | | +-*:normalizedName = testproject[0m
+[0m[[0minfo[0m] [0m      | |   +-*:name = TestProject[0m
+[0m[[0minfo[0m] [0m      | |   [0m
+[0m[[0minfo[0m] [0m      | +-*:pluginCrossBuild::sbtBinaryVersion = 0.13[0m
+[0m[[0minfo[0m] [0m      | | +-*/*:pluginCrossBuild::sbtVersion = 0.13.17[0m
+[0m[[0minfo[0m] [0m      | | [0m
+[0m[[0minfo[0m] [0m      | +-{.}/*:scalaBinaryVersion = 2.12[0m
+[0m[[0minfo[0m] [0m      | +-*:crossVersion = Binary[0m
+[0m[[0minfo[0m] [0m      | +-*/*:sbtPlugin = false[0m
+[0m[[0minfo[0m] [0m      | +-*/*:version = 0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0m      | [0m
+[0m[[0minfo[0m] [0m      +-*:projectInfo = ModuleInfo(TestProject,TestProject,None,None,List(),pingali.jeevan,None,None,List())[0m
+[0m[[0minfo[0m] [0m        +-*:description = TestProject[0m
+[0m[[0minfo[0m] [0m        | +-*:name = TestProject[0m
+[0m[[0minfo[0m] [0m        | [0m
+[0m[[0minfo[0m] [0m        +-*/*:developers = List()[0m
+[0m[[0minfo[0m] [0m        +-*/*:homepage = None[0m
+[0m[[0minfo[0m] [0m        +-*/*:licenses = List()[0m
+[0m[[0minfo[0m] [0m        +-*:name = TestProject[0m
+[0m[[0minfo[0m] [0m        +-*:organizationHomepage = None[0m
+[0m[[0minfo[0m] [0m        | +-*/*:homepage = None[0m
+[0m[[0minfo[0m] [0m        | [0m
+[0m[[0minfo[0m] [0m        +-*:organizationName = pingali.jeevan[0m
+[0m[[0minfo[0m] [0m        | +-*:organization = pingali.jeevan[0m
+[0m[[0minfo[0m] [0m        |   +-*:normalizedName = testproject[0m
+[0m[[0minfo[0m] [0m        |     +-*:name = TestProject[0m
+[0m[[0minfo[0m] [0m        |     [0m
+[0m[[0minfo[0m] [0m        +-*/*:scmInfo = None[0m
+[0m[[0minfo[0m] [0m        +-*/*:startYear = None[0m
+[0m[[0minfo[0m] [0m        [0m
