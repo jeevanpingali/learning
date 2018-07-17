@@ -8,6 +8,7 @@ import akka.stream.alpakka.amqp.scaladsl.{AmqpSink,
 import akka.util.ByteString
 
 object ProcessingRabbitMQApplication extends App {
+/*
 
   implicit val actorSystem = ActorSystem("SimpleStream")
   implicit val actorMaterializer = ActorMaterializer()
@@ -50,4 +51,6 @@ object ProcessingRabbitMQApplication extends App {
     .to(rabbitMQSink)
 
   stream.run()
+*/
+
 }
