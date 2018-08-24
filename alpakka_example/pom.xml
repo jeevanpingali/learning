@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pingali.jeevan</groupId>
+    <artifactId>alpakka-example</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <akkaVersion>2.5.13</akkaVersion>
+    </properties>
+
+    <dependencies>
+<!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor -->
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-actor_2.12</artifactId>
+        <version>${akkaVersion}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-testkit_2.12</artifactId>
+        <version>${akkaVersion}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-slf4j_2.12</artifactId>
+        <version>${akkaVersion}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-stream_2.12</artifactId>
+        <version>${akkaVersion}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.lightbend.akka</groupId>
+        <artifactId>akka-stream-alpakka-file_2.12</artifactId>
+        <version>0.19</version>
+      </dependency>
+
+      <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.2.3</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.scalatest</groupId>
+        <artifactId>scalatest_2.12</artifactId>
+        <version>3.0.5</version>
+      </dependency>
+
+    </dependencies>
+
+</project>
