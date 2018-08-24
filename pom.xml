@@ -17,6 +17,7 @@
     <modules>
         <module>CompletableFuture</module>
         <module>SequencingAsyncTasks</module>
+        <module>MyGuavaLearning</module>
     </modules>
 
 
