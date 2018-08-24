@@ -21,7 +21,7 @@ public class App {
 
         File file = new File(".");
         
-        String path = file.getAbsolutePath() + "\\src\\main\\java\\pingali\\jeevan\\alpakka\\example1\\App.java";
+        String path = ".\\src\\main\\java\\pingali\\jeevan\\alpakka\\example1\\App.java";
         
         final Source<String, NotUsed> lines =
                 akka.stream.alpakka.file.javadsl.FileTailSource.createLines(fs.getPath(path), maxLineSize, pollingInterval);
