@@ -12,7 +12,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <akkaVersion>2.5.13</akkaVersion>
+        <akkaVersion>2.6.6</akkaVersion>
     </properties>
 
     <dependencies>
